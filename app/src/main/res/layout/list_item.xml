@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imgItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@color/colorAccent"
+        android:paddingBottom="8dp"
+        />
+    <TextView
+        android:id="@+id/textItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="10 steps"
+        android:textAlignment="center"
+        android:paddingBottom="8dp"
+        />
+    <!--TODO 3 MAKE SIZE SMALL AND GOOD -->
+
+</LinearLayout>
