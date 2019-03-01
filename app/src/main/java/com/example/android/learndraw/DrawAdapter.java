@@ -11,6 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class DrawAdapter extends ArrayAdapter<ArtAlbum> {
+
     private static final String LOG_TAG = DrawAdapter.class.getSimpleName();
 
 
@@ -31,7 +32,7 @@ public class DrawAdapter extends ArrayAdapter<ArtAlbum> {
 
         TextView drawSteps = (TextView) listItemView.findViewById(R.id.textItem);
         // must cast to string
-        drawSteps.setText(Integer.toString(currentDraw.getStepsNumber()));
+        drawSteps.setText(Integer.toString(currentDraw.getStepsNumber()+1));
 
 
         ImageView listItemCover = (ImageView) listItemView.findViewById(R.id.imgItem);
